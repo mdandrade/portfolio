@@ -1,0 +1,158 @@
+html {
+	background-color: #DBFFC2;
+}
+
+body {
+	font-family: 'Merriweather', serif;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	width: 95%;
+	margin: auto;
+}
+
+header {
+	background-color: #516F3B;
+	height: 100%;
+	margin: auto;
+	border-radius: 5px;
+}
+
+header svg {
+	width: 40%;
+	z-index: 1;
+	color: #DBFFC2;
+	margin: 2%;
+}
+
+
+
+section {
+	background-image: radial-gradient(circle, #516f3b, #415a2f, #324624, #233219, #16200e);
+	color: #DBFFC2;
+	border-radius: 5px;
+	margin-top: 5%;
+	padding: 5% 0;
+}
+
+section .call-to-action p {
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+section p {
+	text-align: justify;
+	width: 90%;
+	margin: auto;
+}
+
+section input {
+	width: 80%;
+}
+
+section svg {
+	width: 50%;
+}
+
+section .message-one, .message-two, .message-three {
+	padding: 100px 0;
+}
+
+section .submit {
+	background-color: tomato;
+	color: #DBFFC2;
+	border: 2px solid red;
+	border-radius: 2px;
+	height: 35px;
+	font-family: 'Oswald';
+	font-size: 1em;
+	margin-top: 1%;
+}
+
+section .submit:hover {
+	color: black;
+}
+
+section button {
+	background-color: #16200E;
+	color: #DBFFC2;
+	border: 2px solid #81AC62;
+	border-radius: 20px;
+	height: 35px;
+	font-family: 'Oswald';
+	font-size: 1em;
+	margin: 5px 40%;
+	padding: 0 15px;
+}
+
+section button:hover {
+	opacity: 50%;
+	color: white;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: baseline;
+}
+
+footer {
+	background-color: #16200E;
+	border-radius: 5px;
+	margin-top: 5%;
+	width: 100%;
+	margin: 5% auto;
+	color: #DBFFC2;
+}
+
+footer svg {
+	width: 8%;
+	padding-left: 5%;
+	margin: 2%;
+}
+
+a:link, a:visited {
+  color: #DBFFC2;
+  text-decoration: none;
+}
+
+@media (min-width: 800px) {
+
+body {
+	width: 60%;
+	margin: 5% auto;
+}
+
+
+
+section svg {
+	width: 50%;
+	width: 50%;
+	vertical-align: center;
+}
+
+section p {
+	font-size: 1em;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.message-one, .message-two, .message-three {
+	width: 60%;
+}
+
+.message-one p, .message-two p, .message-three p {
+	height: 200px;
+}
+
+iframe {
+	width: 100%;
+	height: 500px
+}
+
+}

@@ -1,0 +1,254 @@
+
+body {
+	text-align: center;
+	font-family: helvetica;
+	background: linear-gradient(to bottom, #16222a, #3a6073);
+
+}
+
+a {
+	color: green;
+}
+
+figcaption {
+	background-color: lightgrey;
+	font-size: 12px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin: auto;
+	width: 368px;
+}
+
+iframe {
+	height: 400px;
+	margin: 50px;
+	width: 600px;
+}
+
+section {
+  max-height: auto;
+  max-width: 100%;
+  width: 368px;
+}
+
+section video {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-width: 100%;
+  height: auto;	
+}
+
+section img {
+  border-radius: 25px;
+  max-width: 100%;
+  max-height: auto;
+}
+
+video {
+	max-width: 50%;
+	height: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;		
+}
+
+.dollarani {
+width: 250px;
+opacity: 0.5;
+animation-name: dollar;
+position: fixed;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+z-index: 1;
+}
+
+@keyframes dollar {
+  0%   {left: 0; top: 0;}
+  33%  {right: 0; top: 0;}
+  66%  {right: 0; bottom: 0;}
+  100%  {left: 0; bottom: 0;}
+}
+
+
+.botao {
+	padding: 20px;
+}
+
+.navigation {
+	background-color: tomato;
+	color: white;
+	padding-bottom: 6px;
+	padding-top: 12px;
+	margin-top: 12px;
+}
+
+
+
+.navigation h5 {
+	background-color: #b0140a;
+	padding-bottom: 12px
+}
+
+.titulo-artigo {
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.titulo-artigo h1 {
+	color: #b3ffb3;
+	margin-right: 200px;
+	margin-left: 200px;
+	font-size: 32px;
+	background: linear-gradient(to bottom right, #003300 23%, #009933 100%);
+}
+
+.titulo-artigo h2 {
+	margin-right: 500px;
+	margin-left: 500px;
+	margin-bottom: 100px;
+	font-size: 18px;
+	color: 484848
+}
+
+section {
+	background-color: lightgrey;
+	width: 368px;
+	margin: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.obs {
+	background-color: lightgrey;
+	width: 368px;
+	margin: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 1px;
+}
+
+
+.lista {
+	margin-top: 30px;
+}
+
+.lista ul{
+	list-style: none;
+	color: green;
+	background-color: mediumseagreen;
+	padding-left: 0px;
+	margin-bottom: 50px;
+	margin: auto;
+	width: 550px;
+	text-align: center;
+}
+
+nav ul li{
+  display: inline;
+  border: 3px solid rgb(0, 51, 31);
+  text-align: center;
+}
+
+nav a {
+	  padding: 20px;
+}
+
+
+nav a:hover {
+	color: white;
+	font-weight: bold;
+	background-color: hsl(156, 100%, 40%);
+	text-decoration: none;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#fixo {
+  background-color: #4CAF50;
+  border: 3px solid rgb(0, 51, 31);
+  border-radius: 1000px 50px;
+  color: white;
+  font-weight: bold;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  position: sticky;
+  bottom: 0px;
+  right: 0px;
+  opacity: 0.5;
+  transition: 0.5s;
+  box-shadow: 15px 15px 30px green;
+  z-index: 100;
+}
+
+#fixo:hover {
+  background-color: #173518;
+  border: 3px solid rgb(0, 51, 31);
+  border-radius: 1000px 50px;
+  color: white;
+  font-weight: bold;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  bottom: 5;
+  right: 0;
+  opacity: 1.0;
+  transition: 1s;
+  box-shadow: 15px 15px 30px 10px green;
+}
+
+/* How to do a DROPDOWN MENU >>>>>>>>> */
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 80PX;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/*  <<<<<<<<<<<How to do a DROPDOWN MENU */
+
+
+
+
+
+
+
+

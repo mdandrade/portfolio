@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+	<head>
+
+		<meta charset="utf-8"/>
+		<title>Survey</title>
+		<link rel="stylesheet" href="css/styles.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Righteous|Vollkorn&display=swap" rel="stylesheet">
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+	</head>
+
+	<body>
+
+		<header>
+
+			<h1 id="title">Survey Form</h1>
+				
+		</header>
+
+		<main>
+
+			<section>
+
+				<header>
+
+						<h2 id="description">Let us know how we can improve freeCodeCamp</h2>
+				
+				</header>
+				
+				<form class="grid-parent" id="survey-form">
+
+					<label class="left-grid-items" id="name-label" for="name">Name:</label>
+
+					<input class="input-field right-grid-items" id="name" type="text" name="complete-name" placeholder="Your name" required/>
+
+					<label class="left-grid-items" id="email-label" for="email" >E-mail:</label>
+
+					<input class="input-field right-grid-items" id="email" type="email" name="email" placeholder="Your e-mail" required/>
+
+					<label class="left-grid-items" id="number-label" for="number">Age:</label>
+
+					<input class="input-field right-grid-items" id="number" type="number" name="age" min="1" max="199" placeholder="Your age" required/>
+
+				
+					<p class="left-grid-items">Which option best describes your current role?</p>
+
+					<select class="input-select right-grid-items" id="dropdown" name="option"> 
+						<option value="option">Student</option>
+						<option value="option">Full time job</option>
+						<option value="option">Full time learner</option>
+						<option value="option">Prefer not to say</option>
+						<option value="option">Other</option>
+					</select>
+
+						<p class="left-grid-items">How likely is that you would recommend freeCodeCamp to a friend?</p>
+
+					<div class="right-grid-items">						
+
+						<label>Definitely<input type="radio" name="radio" value="option"></label>
+
+						<label>Maybe<input type="radio" name="radio" value="option"></label>
+
+						<label>Not sure<input type="radio" name="radio" value="option"></label>
+
+					</div>
+
+					<p class="left-grid-items">Things that should be improved in the future (Check all that apply):</p>
+
+					<select class="input-select right-grid-items" id="dropdown2" name="option">
+						<option value="option">Front-end Projects</option>
+						<option value="option">Projects</option>
+						<option value="option">Community</option>
+						<option value="option">Data Visualization</option>
+						<option value="option">Data Visualization</option>
+					</select>
+
+					
+					<p class="left-grid-items">What do you like most in FCC:</p>
+
+					<div class="right-grid-items">
+
+						<label>Front-end Projects<input type="checkbox" name="checkbox" value="checkbox"></label>
+
+						<label>Back-end Projects<input type="checkbox" name="checkbox" value="checkbox"></label>
+
+						<label>Open Source Community<input type="checkbox" name="checkbox" value="checkbox"></label>
+
+						<label>Gitter help rooms<input type="checkbox" name="checkbox" value="checkbox"></label>
+
+						<label>Videos<input type="checkbox" name="checkbox" value="checkbox"></label>
+
+						<label>City Meetups<input type="checkbox" name="checkbox" value="checkbox"></label>
+
+						<label>Wiki<input type="checkbox" name="checkbox" value="checkbox"></label>
+
+						<label>Forum<input type="checkbox" name="checkbox" value="checkbox"></label>
+
+					</div>
+					
+				<p class="left-grid-items">Any Comments or Suggestions?</p>
+
+				<textarea class="box-grid right-grid-items" name="comment" placeholder="Enter your comment here, please..." required></textarea>
+				
+				<button class="centralized-grid-items" id="submit">submit</button>
+
+				</form>
+
+
+			</section>
+					
+
+		</main>
+
+		<footer>
+			
+			<p> Visit us: <a href="https://www.freecodecamp.org/">freecodecamp.org</a></p>
+
+		</footer>
+
+	</body>
+
+
+</html>
