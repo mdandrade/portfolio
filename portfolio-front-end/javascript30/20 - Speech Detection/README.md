@@ -1,4 +1,5 @@
 Aprendemos como pegar dados do microfone, transformar em array e colocar no HTML.
+
 <hr>
 <b>ENGLISH</b>
 
