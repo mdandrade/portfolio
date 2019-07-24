@@ -70,6 +70,18 @@ Name: <input type="text" name="name"><br>
 E-mail: <input type="text" name="email"><br>
 <input type="submit"></p>';
 
+include 'README.md';
+
+echo "<br><br>";
+
+echo "Today is " . date("Y/m/d") . "<br>";
+echo "Today is " . date("Y.m.d") . "<br>";
+echo "Today is " . date("Y-m-d") . "<br>";
+
+$myfile = fopen("testfile.html", "w");
+$someText = '<h1>I wrote it using the fwrite function.<h1>';
+fwrite($myfile, $someText);
+fclose($myfile);
 ?>
 
 </body>
